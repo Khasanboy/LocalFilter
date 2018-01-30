@@ -1,0 +1,13 @@
+
+.flex-item {
+    border: 1px solid silver;
+    padding: 5px;
+    height: 50px;
+    margin:5px;
+    
+    line-height: 50px;
+    color: green;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }

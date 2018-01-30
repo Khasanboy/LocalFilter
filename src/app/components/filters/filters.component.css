@@ -1,0 +1,35 @@
+.main{
+    border: 1px solid black;
+    padding:0;
+    margin: 0;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-direction: row;
+    overflow: hidden;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+
+  .flex-item {
+   
+    padding: 5px;
+    height: 50px;
+    margin:5px;
+    
+    line-height: 50px;
+    color: green;
+    text-align: center;
+  }

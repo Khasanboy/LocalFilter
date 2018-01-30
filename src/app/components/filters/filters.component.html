@@ -1,0 +1,11 @@
+<div class="col-xs-4 main">
+  <ul class="flex-container"
+  [ngStyle] = "{'flex-wrap':isAllFiltersShown ? 'wrap':'nowrap'}"
+  >
+    <li *ngFor="let filter of filtersList">
+        <app-filter [title]="filter"></app-filter>
+    </li>
+  </ul>
+  <a class="flex-item" style="order:2" (click)="toggleFilters()">{{textContent}}</a>
+</div>
+ 
